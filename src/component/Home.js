@@ -6,8 +6,8 @@ import UseStateH from './UseStateHooks/UseStateH';
 import UseEffectH from './UseEffectHooks/UseEffectH';
 import UseContextH from './UseContextHook/UseContextH';
 import UseRefH from './UseRefHooks/UseRefH';
-// import UseRedH from './UseRedH';
-import UseLayH from './UseLayH';
+import UseRedH from './UseRedHooks/UseRedH';
+import UseLayH from './UseLayoutHook/UseLayH';
 import UseMemoH from './UseMemoH';
 import UseCallBaH from './UseCallBaH';
 import CustomHooks from './CustomHooks';
@@ -23,7 +23,7 @@ export const Home = () => {
         <Route path="/useEffect" element={<UseEffectH/>}/>
         <Route path="/useContext" element={<UseContextH/>}/>
         <Route path="/useRef" element={<UseRefH/>}/>
-        {/* <Route path="/useReducer" element={<UseRedH/>}/> */}
+        <Route path="/useReducer" element={<UseRedH/>}/> 
         <Route path="/useLayout" element={<UseLayH/>}/>
         <Route path="/useMemo" element={<UseMemoH/>}/>
         <Route path="/useCallback" element={<UseCallBaH/>}/>
